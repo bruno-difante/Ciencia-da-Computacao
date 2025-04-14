@@ -32,3 +32,22 @@ Ao rodar o programa, o algoritmo evolui as rotas através das gerações até en
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
+## Colaboradores 👨‍💻👨‍💻
+
+**Bruno Difante de Moraes da Silva**  
+Curso de Ciência da Computação – Universidade Franciscana (UFN)
+
+📧 E-mail: b.difante@ufn.edu.br
+
+🔗 GitHub: [@Bruno](https://github.com/bouulzzz) 
+
+---
+
+**Gabriel Maier Teixeira**  
+Curso de Ciência da Computação – Universidade Franciscana (UFN)
+
+📧 E-mail: gabriel.teixeira@ufn.edu.br 
+
+🔗 GitHub: [@Gabriel](https://github.com/Teizinn) 
+
+
