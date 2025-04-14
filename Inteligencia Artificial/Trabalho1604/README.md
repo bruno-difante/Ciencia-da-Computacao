@@ -28,9 +28,6 @@ Encontrar a melhor rota possível, minimizando as penalidades e evoluindo as ger
 
 Ao rodar o programa, o algoritmo evolui as rotas através das gerações até encontrar a melhor solução possível.
 
-## Licença 📜
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## Colaboradores 👨‍💻👨‍💻
 
