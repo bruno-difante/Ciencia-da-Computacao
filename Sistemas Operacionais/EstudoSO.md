@@ -28,7 +28,7 @@ I. Do estado em execução para o estado bloqueado ✅
 II. Do estado em execução para o estado pronto ✅  
 III. Do estado pronto para o estado em execução ✅  
 IV. Do estado pronto para o estado bloqueado ❌  
-V. Do estado bloqueado para o estado em execução ✅  
+V. Do estado bloqueado para o estado em execução ❌
 VI. Do estado bloqueado para o estado pronto ✅  
 
 **Alternativa correta:** (B) Somente as afirmativas I, II, III e VI são verdadeiras.
