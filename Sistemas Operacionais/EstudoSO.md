@@ -13,12 +13,13 @@ Sim. O DMA permite a transferência de dados entre memória e dispositivos de E/
 
 ### **3. Um processo, durante seu ciclo de vida, pode assumir vários estados. Relacione estes estados e os eventos que devem acontecer para a mudança de estado, com as filas de escalonadores de um Sistema Operacional.**
 
-Estados: Novo, Pronto, Em execução, Em espera, Finalizado.  
-Novo -> O processo é criado.
-Pronto -> O processo é colocado na fila de pronto, onde será executado assim que possível.
-Em execução -> O processo é executado enquanto não há interrupção ou evento I/O. Encerrado na fila de execução. 
-Em espera -> O processo é encaixado na fila de espera, onde aguarda o evento I/O acabar para ser retornado.
-Finalizado -> O processo é finalizado, sendo retirado de qualquer fila.
+Estados: Novo, Pronto, Em execução, Em espera, Finalizado. <br>
+Novo -> O processo é criado. <br>
+Pronto -> O processo é colocado na fila de pronto, onde será executado assim que possível. <br>
+Em execução -> O processo é executado enquanto não há interrupção ou evento I/O. Encerrado na fila de execução. <br>
+Em espera -> O processo é encaixado na fila de espera, onde aguarda o evento I/O acabar para ser retornado. <br>
+Finalizado -> O processo é finalizado, sendo retirado de qualquer fila. <br>
+
 ---
 
 ### **4. Em um sistema operacional, um processo pode, em dado instante de tempo, assumir diferentes estados, como: em execução, pronto ou bloqueado (em espera). Considere as afirmativas abaixo sobre as possíveis transições entre esses estados que um processo pode realizar.**
