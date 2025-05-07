@@ -1,0 +1,42 @@
+%verdades
+nasceuEm("Bruno","Santa Maria").
+nasceuEm("Murilo","Santa Maria").
+nasceuEm("Eberton","Sao Martinho").
+nasceuEm("Alcione","Sao Martinho").
+nasceuEm("Vilson","Sao Martinho").
+
+
+%regra recursiva de sobrecarga
+nasceuEm(Pessoa, Lugar):- 
+    nasceuEm(Pessoa, I),
+    estaEm(I, Lugar).
+
+localizadoEm("Santa Maria","RS").
+localizadoEm("Sao Martinho","RS").
+localizadoEm("RS","Brasil").
+
+
+%regra recursiva
+estaEm(Lugar, OutroLugar) :-
+    localizadoEm(Lugar, OutroLugar).
+estaEm(Lugar, OutroLugar) :-
+    localizadoEm(Lugar, I),
+    estaEm(I, OutroLugar).
+
+progenitor("Vilson","Eberton").
+progenitor("Vilson","Alcione").
+progenitor("Eberton","Bruno").
+progenitor("Alcione","Murilo").
+
+avo(Avo, Neta) :-
+    progenitor(Avo, Pai),
+    progenitor(Pai, Neta).
+
+irmao(I1, I2) :-
+    progenitor(Pai,I1),
+    progenitor(Pai,I2),
+    I1 \= I2.
+
+tio(Tio,Sobrinho) :-
+    irmao(Tio,Pai),
+    progenitor(Pai,Sobrinho).
