@@ -12,7 +12,7 @@ Este repositório contém a implementação de dois algoritmos em **linguagem C*
    - Realiza a multiplicação de uma matriz quadrada por um vetor.
    - Cada thread calcula o resultado de uma linha da matriz, otimizando a performance.
 
-## 💡 Característica
+## 🐧 Como eu fiz o trabalho no Windows?
 
 - Este projeto foi desenvolvido e executado no Windows Subsystem for Linux (WSL), uma funcionalidade do Windows que permite rodar um ambiente Linux diretamente dentro do sistema operacional, sem precisar de uma máquina virtual ou dual boot.
 - Através da extensão "WSL" do VSCode, foi possível editar, compilar e executar os arquivos C em um ambiente Linux completo, garantindo compatibilidade total com bibliotecas como pthread, que não são suportadas nativamente no Windows.
