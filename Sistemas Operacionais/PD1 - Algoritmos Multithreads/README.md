@@ -1,6 +1,6 @@
 # 🧵 Trabalho: Operações com Matrizes e Vetores usando Pthreads
 
-Este repositório contém a implementação de dois algoritmos em **linguagem C**, utilizando a biblioteca **Pthread**, com foco em **paralelismo com multithreading**.
+Este repositório contém a implementação de dois algoritmos em **linguagem C**, utilizando a biblioteca **Pthread**, com foco em **programação multithreading**.
 
 ## ✅ Algoritmos desenvolvidos
 
