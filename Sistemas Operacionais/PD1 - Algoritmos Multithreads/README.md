@@ -33,6 +33,7 @@ gcc multiplicacao_matriz_vetor.c -o mult_matriz -lpthread
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
 Bruno Difante, estudante de Ciência da Computação - Universidade Franciscana (UFN)
+Gilberto Morales, estudante de Ciência da Computação - Universidade Franciscana (UFN)
