@@ -25,4 +25,6 @@
 ##### Operação V
 - Incrementa em um o valor do semáforo
 - Se existe processo na fila do semáforo, sinaliza-o
-  
+
+# SO - Lista 6
+## 1 - a)
