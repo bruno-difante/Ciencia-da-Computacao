@@ -28,3 +28,16 @@
 
 # SO - Lista 6
 ## 1 - a)
+| prox. ins  | prox. item  | exc. mutua | esp. vaga | esp. dado |
+|------------|-------------|------------|-----------|-----------|
+|      0     |      0      |      1     |     3     |     0     |
+|      1     |      1      |      0     |     2     |    -1     |
+|            |             |      1     |     2     |     0     |
+|            |             |      0     |           |           |
+
+## b) 
+
+## c) 
+- exclusao_mutua = proteger a seção crítica
+- espera_vaga = o produtor somente insere se tiver vaga
+- espera_dado = controla o número de itens no buffer. se estiver vazio (0), bloqueia o consumidor
