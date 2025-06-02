@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Controle de Lâmpada</title>
+    <script>
+        function alternarLuz() {
+            fetch('/toggle', { method: 'POST' })
+                .then(() => location.reload());
+        }
+    </script>
+</head>
+<body>
+<h1>Controle de Lâmpada</h1>
+<img th:src="@{${ligado} ? 'lampada-on.png' : 'lampada-off.png'}"
+     onclick="alternarLuz()" style="cursor: pointer;" alt="Lâmpada"/>
+</body>
+</html>
