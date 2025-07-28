@@ -1,0 +1,49 @@
+Sistemas Distribuídos
+    Sistemas fracamente acoplados - Grid computacional
+    - geograficamente distribuídos
+    - hardware e sistema operacional diferentes nas máquinas
+    - esquema de comunicação modelo TCP/IP
+    - programação distribuída
+    - arquitetura de sistemas
+        - cliente-servidor
+        - ponto-a-ponto
+    - Comunicação -> troca
+        - String -> mensagem
+        - Objetos -> serialização
+        - Sincronismo: 
+            - Relógio
+            - Monitor ou Semáforo
+            - ?
+        - Tolerância a falhas
+
+
+Sistemas Paralelos
+    Sistemas fortemente acoplados - Cluster computacional
+    - geograficamente na mesma localização
+    - hardware igual para todas as máquinas
+    - esquema de comunicação via fibra óptica
+    - sistema de nobreak robusto
+    - sistema de backup
+    - programação paralela
+
+
+Plano de ensino - Unidades
+    - Unidade 1: Fundamentos
+        - comunicação
+        - processos e threads
+        - sincronização
+    
+    - Unidade 2: Comunicação
+        - fundamentos
+        - comunicação por troca de mensagens
+        - sistemas distribuídos baseados em objetos
+
+    - Unidade 3: Comunicação em grupo
+        - fundamentos
+        - multicast
+        - comunicação confiável em grupoUnidade
+
+    - Unidade 4: Sistemas de arquivos distribuídos e Memória compartilhada distribuída
+        - fundamentos
+        - modelo de consistência 
+        - estudo de casos
