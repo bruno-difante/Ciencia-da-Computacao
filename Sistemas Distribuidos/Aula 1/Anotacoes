@@ -54,3 +54,12 @@ Processo - demanda recurso -> hardware:
     - barramento
     - ram + cache
     - periféricos
+
+Thread:
+    - Mini processo
+    - Gestão
+        - Status (stop, sleep, ready, pause, resume, **sincronizar)
+        - Nome, id, prioridade
+    Tipos de threads:
+        - simples -> sem dependência de dados
+        - memória compartilhada -> possuem dependência de um ou mais processo(s)
