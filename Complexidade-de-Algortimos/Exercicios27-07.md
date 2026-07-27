@@ -1,4 +1,4 @@
-# Exercícios 27/07
+# Exercícios 27/07 - Bruno Difante
 
 ### Exercício 1 - Acesso Direto
 
