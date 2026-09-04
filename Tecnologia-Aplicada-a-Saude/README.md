@@ -55,13 +55,6 @@ A forma mais direta de flagrar overfitting é comparar o desempenho no treino co
 | Decision Tree | 0,7200 | 0,7182 | [[24,14],[7,30]] |
 | KNN | 0,6933 | 0,6925 | [[24,14],[9,28]] |
 
-## Acurácia e F1-Score — o que são e por que os dois importam
-
-- **Acurácia** = acertos totais / total de previsões. Olha o desempenho geral, sem diferenciar em qual classe o modelo acerta mais ou menos.
-- **F1-Score** = combina precisão (dos que o modelo disse "sim", quantos eram realmente "sim") e recall (dos que realmente eram "sim", quantos o modelo pegou). Faz média entre as duas classes, então só fica alto se o modelo for bom nas duas — não só na classe majoritária.
-
-Isso importa porque as bases não são perfeitamente balanceadas (ex: no Problema 1, 151 "não comprou" contra 99 "comprou"). Um modelo pode ter acurácia razoável só por acertar bastante a classe mais comum, enquanto ignora a minoritária — o F1 expõe esse comportamento, caindo quando isso acontece.
-
 ## Algum modelo pode ir para produção?
 
 - **Problema 2 (risco de internação):** **sim** — Naive Bayes e Logistic Regression têm bom desempenho (acurácia/F1 acima de 0,76), sem sinal de overfitting e são interpretáveis, o que ajuda em decisões clínicas.
