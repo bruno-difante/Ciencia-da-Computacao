@@ -1,0 +1,114 @@
+{
+  "problema": "Predicao de risco de internacao",
+  "base": "dados_saude_predicao.csv",
+  "total_amostras": 250,
+  "amostras_treino": 175,
+  "amostras_teste": 75,
+  "resultados": [
+    {
+      "modelo": "Logistic Regression",
+      "acuracia": 0.76,
+      "f1_score_macro": 0.76,
+      "matriz_confusao": [
+        [
+          28,
+          10
+        ],
+        [
+          8,
+          29
+        ]
+      ]
+    },
+    {
+      "modelo": "Decision Tree",
+      "acuracia": 0.6933,
+      "f1_score_macro": 0.6914,
+      "matriz_confusao": [
+        [
+          23,
+          15
+        ],
+        [
+          8,
+          29
+        ]
+      ]
+    },
+    {
+      "modelo": "Random Forest",
+      "acuracia": 0.7867,
+      "f1_score_macro": 0.7863,
+      "matriz_confusao": [
+        [
+          31,
+          7
+        ],
+        [
+          9,
+          28
+        ]
+      ]
+    },
+    {
+      "modelo": "KNN",
+      "acuracia": 0.6933,
+      "f1_score_macro": 0.6925,
+      "matriz_confusao": [
+        [
+          24,
+          14
+        ],
+        [
+          9,
+          28
+        ]
+      ]
+    },
+    {
+      "modelo": "Naive Bayes",
+      "acuracia": 0.8133,
+      "f1_score_macro": 0.8125,
+      "matriz_confusao": [
+        [
+          33,
+          5
+        ],
+        [
+          9,
+          28
+        ]
+      ]
+    },
+    {
+      "modelo": "SVM",
+      "acuracia": 0.7467,
+      "f1_score_macro": 0.7467,
+      "matriz_confusao": [
+        [
+          28,
+          10
+        ],
+        [
+          9,
+          28
+        ]
+      ]
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "acuracia": 0.7867,
+      "f1_score_macro": 0.7863,
+      "matriz_confusao": [
+        [
+          31,
+          7
+        ],
+        [
+          9,
+          28
+        ]
+      ]
+    }
+  ]
+}

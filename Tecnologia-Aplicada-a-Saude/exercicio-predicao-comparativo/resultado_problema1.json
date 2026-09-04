@@ -1,0 +1,114 @@
+{
+  "problema": "Predicao de compra de produto",
+  "base": "dados_predicao_modelos.csv",
+  "total_amostras": 250,
+  "amostras_treino": 175,
+  "amostras_teste": 75,
+  "resultados": [
+    {
+      "modelo": "Logistic Regression",
+      "acuracia": 0.6533,
+      "f1_score_macro": 0.61,
+      "matriz_confusao": [
+        [
+          37,
+          8
+        ],
+        [
+          18,
+          12
+        ]
+      ]
+    },
+    {
+      "modelo": "Decision Tree",
+      "acuracia": 0.6533,
+      "f1_score_macro": 0.6296,
+      "matriz_confusao": [
+        [
+          34,
+          11
+        ],
+        [
+          15,
+          15
+        ]
+      ]
+    },
+    {
+      "modelo": "Random Forest",
+      "acuracia": 0.6267,
+      "f1_score_macro": 0.58,
+      "matriz_confusao": [
+        [
+          36,
+          9
+        ],
+        [
+          19,
+          11
+        ]
+      ]
+    },
+    {
+      "modelo": "KNN",
+      "acuracia": 0.6533,
+      "f1_score_macro": 0.6238,
+      "matriz_confusao": [
+        [
+          35,
+          10
+        ],
+        [
+          16,
+          14
+        ]
+      ]
+    },
+    {
+      "modelo": "Naive Bayes",
+      "acuracia": 0.6533,
+      "f1_score_macro": 0.61,
+      "matriz_confusao": [
+        [
+          37,
+          8
+        ],
+        [
+          18,
+          12
+        ]
+      ]
+    },
+    {
+      "modelo": "SVM",
+      "acuracia": 0.68,
+      "f1_score_macro": 0.6237,
+      "matriz_confusao": [
+        [
+          40,
+          5
+        ],
+        [
+          19,
+          11
+        ]
+      ]
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "acuracia": 0.6,
+      "f1_score_macro": 0.5297,
+      "matriz_confusao": [
+        [
+          37,
+          8
+        ],
+        [
+          22,
+          8
+        ]
+      ]
+    }
+  ]
+}
